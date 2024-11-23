@@ -1,12 +1,12 @@
 # Trabalho Final Automação de Testes de Software
 
-Trabalho final da disciplina de Automação de Testes de Software na pós-graduação pela PUC-Minas. Este projeto foi desenvolvido para realizar testes automatizados usando o padrão **Page Objects**, facilitando a manutenção e escalabilidade do código.
+Trabalho final da disciplina de Automação de Testes de Software na pós-graduação pela PUC-Minas. Este projeto foi desenvolvido para realizar testes automatizados com Selenium usando o padrão **Page Objects**, facilitando a manutenção e escalabilidade do código.
 
 ### Estrutura de Projeto
 
 ```plaintext
-/
 ├── pages/
+│   ├── base_page.py          # Classe base com funções úteis para Page Objects
 │   ├── home_page.py          # Page Objects para interações com a Home
 │   ├── course_page.py        # Page Objects para interações com Cursos
 │   └── discipline_page.py    # Page Objects para interações com Disciplinas
