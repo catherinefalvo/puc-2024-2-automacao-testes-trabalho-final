@@ -7,14 +7,14 @@ Trabalho final da disciplina de Automação de Testes de Software na pós-gradua
 ```plaintext
 /
 ├── pages/
-│   ├── home_page.py           # Page Objects para interações com a Home
-│   ├── course_page.py         # Page Objects para interações com Cursos
-│   └── discipline_page.py     # Page Objects para interações com Disciplinas
+│   ├── home_page.py          # Page Objects para interações com a Home
+│   ├── course_page.py        # Page Objects para interações com Cursos
+│   └── discipline_page.py    # Page Objects para interações com Disciplinas
 ├── tests/
-│   ├── test_demo.py           # Casos de teste organizados
-├── requirements.txt           # Dependências do projeto
-├── README.md                  # Documentação
-├── test_final_exercise_raw.py # Script base do professor
+│   ├── test_demo.py          # Casos de teste organizados
+├── requirements.txt          # Dependências do projeto
+├── README.md                 # Documentação
+├── test_final_exercise_raw   # Script base do professor
 ```
 
 ### Padrões Utilizados

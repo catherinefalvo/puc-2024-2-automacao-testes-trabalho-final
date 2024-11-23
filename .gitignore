@@ -1,0 +1,64 @@
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar diretórios do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorar virtual environments
+env/
+venv/
+ENV/
+.venv/
+*.env
+
+# Ignorar arquivos e diretórios de logs
+logs/
+*.log
+
+# Ignorar caches do pytest
+.pytest_cache/
+
+# Ignorar caches do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar arquivos temporários criados por editores
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Ignorar configurações específicas do IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignorar arquivos binários ou gerados
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignorar configurações do Selenium WebDriver (se aplicável)
+webdriver.log
+
+# Ignorar dependências instaladas
+node_modules/
+package-lock.json
+
+# Ignorar arquivos de build
+dist/
+build/
+*.egg-info/
+
+# Ignorar arquivos de saída de teste
+*.coverage
+.coverage.*
+htmlcov/
+
+# Ignorar arquivos relacionados ao pytest
+.cache/
+test_results/
