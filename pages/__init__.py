@@ -1,0 +1,1 @@
+# Indica que 'pages' é um pacote Python
